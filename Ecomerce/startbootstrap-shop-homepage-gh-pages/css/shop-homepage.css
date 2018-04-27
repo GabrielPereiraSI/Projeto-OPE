@@ -3,13 +3,19 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
-
+#logo img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: none;
+    
+}
 body {
   padding-top: 54px;
+ 
+  
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.container{
+display: flex;
 }
